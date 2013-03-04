@@ -94,4 +94,4 @@ de choisir une autre ligue.
 * Contacter la ligue
 
 ## UML
-![Diagram UML](http://yuml.me55769782)
+![Diagram UML](http://yuml.me/55769782)
