@@ -92,3 +92,6 @@ de choisir une autre ligue.
 
 ### Les actions
 * Contacter la ligue
+
+## UML
+![Diagram UML](http://yuml.me55769782)
