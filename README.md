@@ -94,4 +94,4 @@ de choisir une autre ligue.
 * Contacter la ligue
 
 ## UML
-![Diagram UML](http://yuml.me/55769782)
+![Diagram UML](https://raw.github.com/Azema/rc-infoDroid/master/images/uml.png)
