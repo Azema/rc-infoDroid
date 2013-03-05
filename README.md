@@ -76,6 +76,7 @@ L'utilisateur devra pouvoir renseigner son numéro de licence. Le numéro de lic
 
 #### Les données d'une course:
 * une date
+* Les horaires
 * coordonnées (voir club ou différent)
 * type (indoor ou outdoor)
 * catégories (4x2 1/10, 4x4 1/10, short course 1/10)
@@ -85,6 +86,7 @@ L'utilisateur devra pouvoir renseigner son numéro de licence. Le numéro de lic
 * Lien vers un formulaire d'inscription
 * Une liste de participants
 * Les classements par catégories (après course)
+* Un championnat (optionnel si course amicale)
 
 #### Les actions
 * Fournir une liste des courses
@@ -93,6 +95,9 @@ L'utilisateur devra pouvoir renseigner son numéro de licence. Le numéro de lic
 * Voir les résultats d'une course
 * Voir la liste des participants inscrits
 * Ajout la course dans le calendrier
+* Partager (réseaux sociaux)
+* S'inscrire à la course (nécessite un numéro de licence pour les courses de championnats)
+* Afficher le circuit sur Google Maps
 
 ### Les championnats
 
