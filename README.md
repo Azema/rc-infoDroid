@@ -2,7 +2,7 @@
 ----
 
 L'idée est de créer une application Android qui permettra de fournir un maximum
-d'informations sur chaque ligue de la FFVRC (Federation Française de Voiture Radio Commandée).
+d'informations sur chaque ligue de la FFVRC (Federation Française de Voitures Radio Commandées).
 
 Les informations pouvant être recencées et diffusées:
  - [ ] Les clubs
