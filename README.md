@@ -6,6 +6,7 @@ d'informations sur chaque ligue de la FFVRC (Federation Française de Voitures R
 
 Les informations pouvant être recencées et diffusées:
  - [ ] Les clubs
+ - [ ] Les circuits
  - [ ] Les courses
  - [ ] Les championnats
  - [ ] Les ligues
@@ -65,6 +66,7 @@ Une idée soumise par **henry-lorient** sur le [forum de RCmag](http://rcmag.com
 * Des photos
 * Les équipements
 * Particularités (électricité, eau, stands, etc...)
+* Les circuits
 
 #### Les actions
 * Fournir la liste des clubs de la ligue
@@ -73,6 +75,19 @@ Une idée soumise par **henry-lorient** sur le [forum de RCmag](http://rcmag.com
 * Afficher le club sur une carte géographique
 * Afficher tous les clubs sur une carte géo
 * Permettre d'acceder aux courses d'un club
+* Afficher les circuits
+
+### Les circuits
+#### Les données d'un circuit:
+* type (piste, TT)
+* moteurs (thermique, brushless)
+* revetement (moquette, terre, bitume)
+* longueur
+
+#### Les actions
+* Afficher la piste sur une carte géographique
+* Afficher les détails de la piste
+* Afficher les set up sheets
 
 ### Les courses
 
@@ -82,7 +97,7 @@ Une idée soumise par **henry-lorient** sur le [forum de RCmag](http://rcmag.com
 * coordonnées (voir club ou différent)
 * type (indoor ou outdoor)
 * catégories (4x2 1/10, 4x4 1/10, short course 1/10)
-* Un organisateur
+* Un organisateur (voir club)
 * Un numéro de téléphone
 * Une adresse mail
 * Lien vers un formulaire d'inscription
