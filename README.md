@@ -1,4 +1,4 @@
-# Réalisation d'une application Android pour les ligues de la FFVRC
+# Réalisation d'une application Android pour les licenciés de la FFVRC
 ----
 
 L'idée est de créer une application Android qui permettra de fournir un maximum
