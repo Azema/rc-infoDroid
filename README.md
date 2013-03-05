@@ -8,12 +8,10 @@ Les informations pouvant être recencées et diffusées:
  - [ ] Les clubs
  - [ ] Les courses
  - [ ] Les championnats
- - [ ] Les résultats
  - [ ] Les coordonnées de la ligue
  - [ ] Les infos diverses
 
 ## Les idées
-
 Les informations de chaque ligue devront être disponible via une API sur Internet.
 Elles devront être renseignées par les responsables de ligue ou bien par une ou plusieurs personnes désignées par les responsables de ligue.
 Les informations seront renseignées via un BackOffice Web accessible sur Internet.
@@ -24,9 +22,47 @@ L'application nécessitera une connexion internet pour fonctionner. A voir pour 
 Les utilisateurs devront choisir la ligue qu'ils souhaitent consulter à l'arrivée sur l'application. Il devra être possible de garder en mémoire la ligue choisit et de ne plus proposer le choix de la ligue au démarrage de l'application. Il devra quand même être possible de choisir une autre ligue.
 Un menu devra permettre de choisir parmi les éléments cités ci-dessus.
 
-## Les clubs
+L'utilisateur devra pouvoir renseigner son numéro de licence. Le numéro de licence servira à connaitre le classement de l'utilisateur dans les différents championnats, le classement des courses, l'inscription aux courses, etc...
 
-### Les données d'un club:
+## Les étapes de réalisation
+ - [ ] L'API REST
+ - [ ] Le BackOffice Web
+ - [ ] L'application Android
+ - [ ] Le FrontOffice Web
+
+### L'API REST
+L'utilisation de l'API REST nécessitera une clef d'authentification.
+
+Le format de sortie devra être du JSON.
+
+### Le BackOffice
+Le BackOffice servira aux ligues et à la fédération pour renseigner les informations qui seront mises à disposition des utilisateurs de l'application.
+
+L'accès au BackOffice devra être protégé par une page d'identification.
+
+Les utilisateurs du BackOffice se verront attribuer un rôle qui leur permettra d'accéder à des actions.
+
+Les utilisateurs affiliés aux ligues ne pourront voir et modifier les données que de la ligue à laquelle ils sont affiliés.
+
+Les utilisateurs de la fédération pourront accéder à toutes les informations de toutes les ligues.
+
+### L'application Android
+L'application Android devra utiliser l'API REST pour obtenir les informations à diffuser.
+
+Elle devra répondre aux différentes résolutions en utilisant le responsive design.
+
+La page d'accueil de l'application devra demander, lors de la première ouverture, la sélection de la ligue souhaitée par l'utilisateur.
+
+L'utilisateur pourra par la suite sélectionner une autre ligue.
+
+L'utilisateur devra pouvoir renseigner son numéro de licence.
+
+### Le FrontOffice Web
+Le FrontOffice Web sera une réplique de l'application Android mais en étant plus adaptée aux grands écrans.
+
+## Les ressources
+### Les clubs
+#### Les données d'un club:
 * Nom
 * Un responsable
 * Une adresse postale
@@ -37,7 +73,7 @@ Un menu devra permettre de choisir parmi les éléments cités ci-dessus.
 * Les équipements
 * Particularités (électricité, eau, stands, etc...)
 
-### Les actions
+#### Les actions
 * Fournir la liste des clubs de la ligue
 * Trier la liste des clubs
 * Afficher les détails d'un club
@@ -45,9 +81,9 @@ Un menu devra permettre de choisir parmi les éléments cités ci-dessus.
 * Afficher tous les clubs sur une carte géo
 * Permettre d'acceder aux courses d'un club
 
-## Les courses
+### Les courses
 
-### Les données d'une course:
+#### Les données d'une course:
 * une date
 * coordonnées (voir club ou différent)
 * type (indoor ou outdoor)
@@ -59,7 +95,7 @@ Un menu devra permettre de choisir parmi les éléments cités ci-dessus.
 * Une liste de participants
 * Les classements par catégories (après course)
 
-### Les actions
+#### Les actions
 * Fournir une liste des courses
 * Trier la liste des courses
 * Voir le détail d'une course
@@ -67,32 +103,26 @@ Un menu devra permettre de choisir parmi les éléments cités ci-dessus.
 * Voir la liste des participants inscrits
 * Ajout la course dans le calendrier
 
-## Les championnats
+### Les championnats
 
-### Les données d'un championnat
+#### Les données d'un championnat
 * Une catégorie (4x2 standard, 4x2 modifié, 4x4 modifié, etc...)
 * Un type (Ligue Promotion, Ligue Open, Coupe de France, etc...)
 
-### Les actions
+#### Les actions
 * Voir tous les championnats
 * Filtrer par catégorie
 * Voir le détail d'un championnat
 * Voir le classement du championnat
 * Voir les courses du championnat
 
-## Les résultats
+### Les ligues
 
-### Les données de résultats
-
-### Les actions
-
-## La ligue
-
-### Les données de la ligue
+#### Les données des ligues
 * Le président
 * Les coordonnées
 
-### Les actions
+#### Les actions
 * Contacter la ligue
 
 ## UML
