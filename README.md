@@ -24,6 +24,8 @@ Un menu devra permettre de choisir parmi les éléments cités ci-dessus.
 
 L'utilisateur devra pouvoir renseigner son numéro de licence. Le numéro de licence servira à connaitre le classement de l'utilisateur dans les différents championnats, le classement des courses, l'inscription aux courses, etc...
 
+Une idée soumise par **henry-lorient** sur le [forum de RCmag](http://rcmag.com/modules.php?name=Forums&file=viewtopic&p=691702#691693), permettre aux pilotes de partager les set up sheets.
+
 ## Les étapes de réalisation
  - [ ] L'API REST
  - [ ] Le BackOffice Web
