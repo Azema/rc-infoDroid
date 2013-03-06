@@ -13,7 +13,10 @@ L'API sera documentée directement en ligne, il suffira d'appeler la méthode 'd
 En fonction des paramètres fournis au point d'entrée, le retour sera soit une collection, soit une ressource.
 
 Tous les liens de relations seront définit dans la propriété '_links'.
+
 Les éléments enfants d'une ressource seront définit dans la propriété '_embedded'.
+
+Je compte utiliser la bibliothèque [hal](https://github.com/blongden/hal.git).
 
 Voici deux exemples:
 
