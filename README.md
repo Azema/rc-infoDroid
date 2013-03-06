@@ -5,11 +5,15 @@ L'idée est de créer une application Android qui permettra de fournir un maximu
 d'informations sur chaque ligue de la FFVRC (Federation Française de Voitures Radio Commandées).
 
 Les informations pouvant être recencées et diffusées:
+ - [ ] Les ligues
+ - [ ] Les championnats
+ - [ ] Les courses
  - [ ] Les clubs
  - [ ] Les circuits
- - [ ] Les courses
- - [ ] Les championnats
- - [ ] Les ligues
+ - [ ] Les membres (licenciés)
+ - [ ] Les licences
+ - [ ] Les catégories
+ - [ ] Les chassis (plus tard)
  - [ ] Les infos diverses
 
 ## Les idées
@@ -139,4 +143,5 @@ Une idée soumise par **henry-lorient** sur le [forum de RCmag](http://rcmag.com
 * Contacter la ligue
 
 ## UML
+http://yuml.me/4edfca45
 ![Diagram UML](https://raw.github.com/Azema/rc-infoDroid/master/images/uml.png)
