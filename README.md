@@ -14,6 +14,7 @@ Les informations pouvant être recencées et diffusées:
  - [ ] Les licences
  - [ ] Les catégories
  - [ ] Les chassis (plus tard)
+ - [ ] Les feuilles de réglages (Set Up sheets)
  - [ ] Les infos diverses
 
 ## Les idées
@@ -141,6 +142,43 @@ Une idée soumise par **henry-lorient** sur le [forum de RCmag](http://rcmag.com
 
 #### Les actions
 * Contacter la ligue
+
+### Les membres (licenciés)
+#### Les données des membres
+ * Un numéro d'affiliation
+ * Un nom
+ * Un prénom
+ * Un club
+ * Un licence
+ * Expert (0: non, 1: *, 2: **)
+
+#### Les actions des membres
+
+### Les licences
+#### Les données
+ * Un nom
+
+### Les catégories
+#### Les données 
+ * Un nom
+
+### Les chassis
+#### Les données
+ * Un nom
+ * Une marque
+ * Un modèle
+ * Une année de sortie
+ * Un type (brushless / thermique)
+
+### Les feuilles de réglages (SetUp sheets)
+#### Les données
+ * Un circuit
+ * Un chassis
+ * Un fichier (PDF ?)
+#### Les actions
+ * Uploader une feuille
+ * Créer une feuille
+ * Télécharger une feuille vierge
 
 ## UML
 http://yuml.me/4edfca45
